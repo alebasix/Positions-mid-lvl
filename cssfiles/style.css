@@ -54,7 +54,7 @@ svg {
   padding: 40%;
 }
 
-main:nth-child(1) {
+main:nth-child(n+1) {
   background: rgb(254, 189, 154);
   background: linear-gradient(
     90deg,
@@ -64,7 +64,7 @@ main:nth-child(1) {
   );
 }
 
-main:nth-last-child(odd) {
+main:nth-child(n+2) {
   background: rgb(132, 198, 245);
   background: linear-gradient(
     90deg,
@@ -76,7 +76,7 @@ main:nth-last-child(odd) {
   margin-left: 2%;
 }
 
-main:nth-child(3) {
+main:nth-child(n+3) {
   background: rgb(128, 222, 214);
   background: linear-gradient(
     90deg,
