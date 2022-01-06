@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-main {
+article {
   height: 25%;
   width: 25%;
   position: relative;
@@ -54,7 +54,7 @@ svg {
   padding: 40%;
 }
 
-main:nth-child(n+1) {
+article:nth-child(n+1) {
   background: rgb(254, 189, 154);
   background: linear-gradient(
     90deg,
@@ -64,7 +64,7 @@ main:nth-child(n+1) {
   );
 }
 
-main:nth-child(n+2) {
+article:nth-child(n+2) {
   background: rgb(132, 198, 245);
   background: linear-gradient(
     90deg,
@@ -76,7 +76,7 @@ main:nth-child(n+2) {
   margin-left: 2%;
 }
 
-main:nth-child(n+3) {
+article:nth-child(n+3) {
   margin-left: 0px;
   background: rgb(128, 222, 214);
   background: linear-gradient(
